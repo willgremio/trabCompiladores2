@@ -51,7 +51,6 @@ class Tabela {
         return $this->arrayAgrupaLinhasColunas;
     }
 
-    //Vai em cada produção da gramatica e faz o first e follow dos NT e por fim gera e seta a tabela     
     public function construcaoTabela($variaveisLadoEsquerdo, $variaveisLadoDireito) {
         $gramatica = array_reverse($this->getGramatica());
         var_dump($gramatica);
